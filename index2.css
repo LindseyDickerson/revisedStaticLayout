@@ -1,0 +1,190 @@
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+.header {
+
+}
+
+.body {
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.top {
+    background-image: url(./assets/netflixBackground.jpg); 
+    height: 95vh;
+    width: 100vw;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    object-fit: cover;
+}    
+    /*End Background Code*/
+
+#netflixLogo {
+    content: url(./assets/netflixLogoTransparentBackground.png);
+    padding-top: 10px;
+    height: 70px;
+    width: 200px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.signIn {
+    position: absolute;
+    right: 2px;
+    color: #fff;
+    background-color: #e50914;
+    height: 40px;
+    width: 80px;
+    z-index: 1;
+    font-family: 'Helvetica Neue', Helvetica, Arial,    sans-serif;
+    font-size: 16px;
+    padding: 5px 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end, space-around;
+    align-items: center;
+    border: 1px solid #e50914;
+    border-radius: 8px;
+
+}
+
+
+#seeWhatsNext{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 2px #1a1a1a;
+    flex-direction: column;
+    padding: 40px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#anywhere {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial; Sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #1a1a1a;
+    flex-direction: column;
+    padding: 30px 0;
+    
+    
+    
+}
+#free30 {
+    position: relative;
+    color: #fff;
+    background-color: #e50914;
+    text-align: center;
+    height: 40px;
+    width: 380px;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    font-size: 30px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    flex-direction: column;
+    padding: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#haveAccount {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    font-size: 20px;
+    text-shadow: 1px 1px #1a1a1a;
+    flex-direction: column;
+    padding: 20px 0;
+    
+}
+
+.middle {
+    display: flex;
+    background-color: #141414;
+    height: 25vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+#noCommitment{
+    content: url(./assets/noCommitments3.jpg);
+    display: flex;
+    align-content: center;
+}
+
+
+#watchAnywhere{
+    content: url(./assets/watchAnywhere.jpg);
+    display: flex;
+}
+
+
+#pickYourPrice{
+    content: url(./assets/pickYourPrice.jpg);
+    display: flex;
+}
+
+
+.bottom {
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+} 
+#cancelAnytime {
+    display: flex;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    flex: wrap;
+}
+
+.try30 {
+    display: flex;
+    position: absolute;
+    color: #fff;
+    background-color: #e50914;
+    height: 80px;
+    width: 200px;
+    z-index: 1;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #e50914;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+#cancelAnytimeImage {
+    display: flex;
+    content: url(./assets/cancelAnytime.png);
+    height: 300px;
+    width: 400px;
+    margin-right: 20px;
+    
+}
